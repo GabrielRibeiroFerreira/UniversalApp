@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2B0CB124AE0F3000893833 /* PlaylistCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B0CB024AE0F3000893833 /* PlaylistCommands.swift */; };
+		2A2B0CB224AE0F3000893833 /* PlaylistCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B0CB024AE0F3000893833 /* PlaylistCommands.swift */; };
+		2A4F78D324AE0B7C00B9521F /* BandsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F78D224AE0B7C00B9521F /* BandsCell.swift */; };
+		2A4F78D424AE0B7C00B9521F /* BandsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F78D224AE0B7C00B9521F /* BandsCell.swift */; };
+		2A4F78D624AE0BCC00B9521F /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F78D524AE0BCC00B9521F /* MusicCell.swift */; };
+		2A4F78D724AE0BCC00B9521F /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F78D524AE0BCC00B9521F /* MusicCell.swift */; };
+		2A5E7F0124ABA97500D1D4FE /* hiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7EEE24ABA97300D1D4FE /* hiveApp.swift */; };
+		2A5E7F0224ABA97500D1D4FE /* hiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7EEE24ABA97300D1D4FE /* hiveApp.swift */; };
+		2A5E7F0324ABA97500D1D4FE /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7EEF24ABA97300D1D4FE /* PlaylistView.swift */; };
+		2A5E7F0424ABA97500D1D4FE /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7EEF24ABA97300D1D4FE /* PlaylistView.swift */; };
+		2A5E7F0524ABA97500D1D4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5E7EF024ABA97500D1D4FE /* Assets.xcassets */; };
+		2A5E7F0624ABA97500D1D4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5E7EF024ABA97500D1D4FE /* Assets.xcassets */; };
+		2A5E7F1024ABC1AA00D1D4FE /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F0F24ABC1AA00D1D4FE /* Band.swift */; };
+		2A5E7F1124ABC1AA00D1D4FE /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F0F24ABC1AA00D1D4FE /* Band.swift */; };
+		2A5E7F1324ABCB9B00D1D4FE /* BandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F1224ABCB9B00D1D4FE /* BandView.swift */; };
+		2A5E7F1424ABCB9B00D1D4FE /* BandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F1224ABCB9B00D1D4FE /* BandView.swift */; };
+		2A5E7F1624ABCE6700D1D4FE /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F1524ABCE6700D1D4FE /* Music.swift */; };
+		2A5E7F1724ABCE6700D1D4FE /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F1524ABCE6700D1D4FE /* Music.swift */; };
+		2A5E7F1924ABD80B00D1D4FE /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F1824ABD80B00D1D4FE /* MusicView.swift */; };
+		2A5E7F1A24ABD80B00D1D4FE /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F1824ABD80B00D1D4FE /* MusicView.swift */; };
+		2A5E7F1C24AD3A6500D1D4FE /* BandsDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F1B24AD3A6500D1D4FE /* BandsDownload.swift */; };
+		2A5E7F1D24AD3A6500D1D4FE /* BandsDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5E7F1B24AD3A6500D1D4FE /* BandsDownload.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A2B0CB024AE0F3000893833 /* PlaylistCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCommands.swift; sourceTree = "<group>"; };
+		2A4F78D224AE0B7C00B9521F /* BandsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandsCell.swift; sourceTree = "<group>"; };
+		2A4F78D524AE0BCC00B9521F /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+		2A5E7EEE24ABA97300D1D4FE /* hiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiveApp.swift; sourceTree = "<group>"; };
+		2A5E7EEF24ABA97300D1D4FE /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		2A5E7EF024ABA97500D1D4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A5E7EF524ABA97500D1D4FE /* hive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5E7EF824ABA97500D1D4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5E7EFD24ABA97500D1D4FE /* hive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5E7EFF24ABA97500D1D4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5E7F0024ABA97500D1D4FE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2A5E7F0F24ABC1AA00D1D4FE /* Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
+		2A5E7F1224ABCB9B00D1D4FE /* BandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandView.swift; sourceTree = "<group>"; };
+		2A5E7F1524ABCE6700D1D4FE /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		2A5E7F1824ABD80B00D1D4FE /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		2A5E7F1B24AD3A6500D1D4FE /* BandsDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandsDownload.swift; sourceTree = "<group>"; };
+		2A5E7F2024AD4C7400D1D4FE /* hive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hive.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A5E7EF224ABA97500D1D4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5E7EFA24ABA97500D1D4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A4F78D824AE0BF000B9521F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2A4F78D224AE0B7C00B9521F /* BandsCell.swift */,
+				2A4F78D524AE0BCC00B9521F /* MusicCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2A5E7EE824ABA97300D1D4FE = {
+			isa = PBXGroup;
+			children = (
+				2A5E7EED24ABA97300D1D4FE /* Shared */,
+				2A5E7EF724ABA97500D1D4FE /* iOS */,
+				2A5E7EFE24ABA97500D1D4FE /* macOS */,
+				2A5E7EF624ABA97500D1D4FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A5E7EED24ABA97300D1D4FE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2A5E7F1F24AD4ADE00D1D4FE /* Views */,
+				2A5E7F1E24AD4ACA00D1D4FE /* Models */,
+				2A5E7EF024ABA97500D1D4FE /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2A5E7EF624ABA97500D1D4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A5E7EF524ABA97500D1D4FE /* hive.app */,
+				2A5E7EFD24ABA97500D1D4FE /* hive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A5E7EF724ABA97500D1D4FE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A5E7F2024AD4C7400D1D4FE /* hive.entitlements */,
+				2A5E7EF824ABA97500D1D4FE /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2A5E7EFE24ABA97500D1D4FE /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A5E7EFF24ABA97500D1D4FE /* Info.plist */,
+				2A5E7F0024ABA97500D1D4FE /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2A5E7F1E24AD4ACA00D1D4FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A5E7F1B24AD3A6500D1D4FE /* BandsDownload.swift */,
+				2A5E7F0F24ABC1AA00D1D4FE /* Band.swift */,
+				2A5E7F1524ABCE6700D1D4FE /* Music.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A5E7F1F24AD4ADE00D1D4FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A4F78D824AE0BF000B9521F /* Cells */,
+				2A5E7EEE24ABA97300D1D4FE /* hiveApp.swift */,
+				2A5E7EEF24ABA97300D1D4FE /* PlaylistView.swift */,
+				2A5E7F1224ABCB9B00D1D4FE /* BandView.swift */,
+				2A5E7F1824ABD80B00D1D4FE /* MusicView.swift */,
+				2A2B0CB024AE0F3000893833 /* PlaylistCommands.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A5E7EF424ABA97500D1D4FE /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5E7F0924ABA97500D1D4FE /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				2A5E7EF124ABA97500D1D4FE /* Sources */,
+				2A5E7EF224ABA97500D1D4FE /* Frameworks */,
+				2A5E7EF324ABA97500D1D4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = 2A5E7EF524ABA97500D1D4FE /* hive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A5E7EFC24ABA97500D1D4FE /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5E7F0C24ABA97500D1D4FE /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				2A5E7EF924ABA97500D1D4FE /* Sources */,
+				2A5E7EFA24ABA97500D1D4FE /* Frameworks */,
+				2A5E7EFB24ABA97500D1D4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = 2A5E7EFD24ABA97500D1D4FE /* hive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A5E7EE924ABA97300D1D4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2A5E7EF424ABA97500D1D4FE = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2A5E7EFC24ABA97500D1D4FE = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 2A5E7EEC24ABA97300D1D4FE /* Build configuration list for PBXProject "hive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A5E7EE824ABA97300D1D4FE;
+			productRefGroup = 2A5E7EF624ABA97500D1D4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A5E7EF424ABA97500D1D4FE /* iOS */,
+				2A5E7EFC24ABA97500D1D4FE /* macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A5E7EF324ABA97500D1D4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5E7F0524ABA97500D1D4FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5E7EFB24ABA97500D1D4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5E7F0624ABA97500D1D4FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A5E7EF124ABA97500D1D4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5E7F1024ABC1AA00D1D4FE /* Band.swift in Sources */,
+				2A5E7F1C24AD3A6500D1D4FE /* BandsDownload.swift in Sources */,
+				2A4F78D624AE0BCC00B9521F /* MusicCell.swift in Sources */,
+				2A2B0CB124AE0F3000893833 /* PlaylistCommands.swift in Sources */,
+				2A4F78D324AE0B7C00B9521F /* BandsCell.swift in Sources */,
+				2A5E7F1324ABCB9B00D1D4FE /* BandView.swift in Sources */,
+				2A5E7F1624ABCE6700D1D4FE /* Music.swift in Sources */,
+				2A5E7F0324ABA97500D1D4FE /* PlaylistView.swift in Sources */,
+				2A5E7F1924ABD80B00D1D4FE /* MusicView.swift in Sources */,
+				2A5E7F0124ABA97500D1D4FE /* hiveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5E7EF924ABA97500D1D4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5E7F1124ABC1AA00D1D4FE /* Band.swift in Sources */,
+				2A5E7F1D24AD3A6500D1D4FE /* BandsDownload.swift in Sources */,
+				2A4F78D724AE0BCC00B9521F /* MusicCell.swift in Sources */,
+				2A2B0CB224AE0F3000893833 /* PlaylistCommands.swift in Sources */,
+				2A4F78D424AE0B7C00B9521F /* BandsCell.swift in Sources */,
+				2A5E7F1424ABCB9B00D1D4FE /* BandView.swift in Sources */,
+				2A5E7F1724ABCE6700D1D4FE /* Music.swift in Sources */,
+				2A5E7F0424ABA97500D1D4FE /* PlaylistView.swift in Sources */,
+				2A5E7F1A24ABD80B00D1D4FE /* MusicView.swift in Sources */,
+				2A5E7F0224ABA97500D1D4FE /* hiveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A5E7F0724ABA97500D1D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A5E7F0824ABA97500D1D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2A5E7F0A24ABA97500D1D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOS/hive.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7CS39R779;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gabrielferreira.hive;
+				PRODUCT_NAME = hive;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		2A5E7F0B24ABA97500D1D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOS/hive.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7CS39R779;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gabrielferreira.hive;
+				PRODUCT_NAME = hive;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A5E7F0D24ABA97500D1D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C7CS39R779;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = gabrielferreira.hive;
+				PRODUCT_NAME = hive;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A5E7F0E24ABA97500D1D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C7CS39R779;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = gabrielferreira.hive;
+				PRODUCT_NAME = hive;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A5E7EEC24ABA97300D1D4FE /* Build configuration list for PBXProject "hive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5E7F0724ABA97500D1D4FE /* Debug */,
+				2A5E7F0824ABA97500D1D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5E7F0924ABA97500D1D4FE /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5E7F0A24ABA97500D1D4FE /* Debug */,
+				2A5E7F0B24ABA97500D1D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5E7F0C24ABA97500D1D4FE /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5E7F0D24ABA97500D1D4FE /* Debug */,
+				2A5E7F0E24ABA97500D1D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A5E7EE924ABA97300D1D4FE /* Project object */;
+}
