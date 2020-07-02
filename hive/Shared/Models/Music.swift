@@ -12,3 +12,5 @@ struct Music : Identifiable {
     var name: String
     var duration: String
 }
+
+let testMusic = Music(name: "TRRTS", duration: "3:00")

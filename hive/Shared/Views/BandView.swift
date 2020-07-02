@@ -31,7 +31,7 @@ struct BandView: View {
 struct BandView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            BandView(band: BandsDownload().bands[0])
+            BandView(band: testBands[0])
         }
     }
 }

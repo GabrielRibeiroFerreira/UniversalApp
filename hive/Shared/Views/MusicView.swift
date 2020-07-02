@@ -37,6 +37,6 @@ struct MusicView: View {
 
 struct MusicView_Previews: PreviewProvider {
     static var previews: some View {
-        MusicView(music: BandsDownload().bands[0].musics![0], image: BandsDownload().bands[0].imageName)
+        MusicView(music: testMusic, image: testBands[0].imageName)
     }
 }
